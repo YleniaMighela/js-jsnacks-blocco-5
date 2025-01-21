@@ -4,9 +4,9 @@ const numbers = [2, 8, 4, 7, 2, 87];
 // Risultato: [3, 9, 5, 8, 3, 88]
 
 
-const plusOne = numbers.map((numero) => {
+const plusOne = numbers.map((number) => {
 
-    return numero + 1;
+    return number + 1;
 
 });
 
@@ -20,9 +20,9 @@ console.log(plusOne);
 
 // const plusOne = [];
 
-// numbers.forEach((numero) => {
+// numbers.forEach((number) => {
 
-//     plusOne.push(numero + 1);
+//     plusOne.push(number + 1);
 
 // });
 // console.log(plusOne);
